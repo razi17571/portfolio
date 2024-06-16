@@ -1,37 +1,71 @@
-.project-card {
-    display: flex;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    margin-bottom: 20px;
-  }
+.project-section {
+  margin: 0px 10px 0px 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
   
-  .project-image img {
-    width: 150px;
-    height: 100%;
-    object-fit: cover;
-  }
+}
+
+.project-box {
+  display: flex;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #1c1b23;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.project-content {
+  padding-left: 10px;
+}
+
+.project-image img {
+  width: 130px !important;
+  height: auto;
+  border-radius: 8px;
+}
+
+.experience-content {
+  flex: 1;
+}
+
+.view-more {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.view-more:hover {
+  background-color: #0056b3;
+}
+
+/* @media (max-width: 768px) {
+    .card {
+      flex-direction: column; 
+      align-items: center; 
+      width: auto; 
+    }
   
-  .project-info {
-    padding: 10px;
-    flex-grow: 1;
-  }
+    .card-image img {
+      width: 90%; 
+      margin-bottom: 20px; 
+    }
   
-  .project-info h3 {
-    margin-top: 0;
-  }
+    .experience-content {
+      width: 90%; 
+      text-align: center; 
+    }
   
-  .tech-stack, .description {
-    margin: 5px 0;
-  }
-  
-  .icons a {
-    display: inline-block;
-    margin-right: 10px;
-    text-decoration: none;
-    color: #007bff;
-  }
-  
-  .icons a:hover {
-    text-decoration: underline;
-  }
+    .view-more {
+      align-self: flex-start; 
+      margin-top: 20px;
+    }
+  } */

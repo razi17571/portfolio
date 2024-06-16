@@ -1,27 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import SkillsSection from '../components/SkillsSection';
-// import ExperienceSection from '../components/ExperienceSection';
-// import ProjectsSection from '../components/ProjectSection';
+import ExperienceSection from '../components/ExperienceSection';
+import ProjectSection from '../components/ProjectSection';
+import Intro from '../components/Intro';
 import '../styles/Home.css'; 
 
 const Home = () => {
   // State for typing effect
-  const [typedText, setTypedText] = useState('');
-  const textToType = "I'm Mohammed Raziullah Ansari";
-
-  // Typing effect simulation
-  useEffect(() => {
-    let currentIndex = 0;
-    const interval = setInterval(() => {
-      if (currentIndex <= textToType.length) {
-        setTypedText(textToType.slice(0, currentIndex));
-        currentIndex++;
-      } else {
-        clearInterval(interval);
-      }
-    }, 150); // Adjust typing speed here (milliseconds)
-    return () => clearInterval(interval);
-  }, []);
+  
 
   return (
     <>
@@ -29,11 +15,11 @@ const Home = () => {
         <div className="row">
           <div className="col-lg-9">
             <SkillsSection />
-            {/* <ExperienceSection /> */}
-            {/* <ProjectsSection /> */}
+            <ExperienceSection />
+            <ProjectSection />
           </div>
           <div className="col-lg-3">
-            {/* <Intro /> */}
+            <Intro />
           </div>
         </div>
       </div>

@@ -1,0 +1,95 @@
+.intro-section {
+    margin: 0px 10px 0px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    /* vertical-align: middle; */
+    margin-top: 130px;   
+}
+
+.intro-section img{
+    display: flex;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.intro-section div p {
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    color: #e4e4e7;
+    margin-bottom: 2px;
+
+}
+.target-roles {
+    margin-top: 0px;
+    text-align: center;
+    
+}
+
+.intro p{
+ text-align: left !important;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+
+.project-box {
+    display: flex;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #1c1b23;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.project-content {
+    padding-left: 10px;
+}
+
+.project-image img {
+    width: 130px !important;
+    height: auto;
+    border-radius: 8px;
+}
+
+.experience-content {
+    flex: 1;
+}
+
+.view-more {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.view-more:hover {
+    background-color: #0056b3;
+}
+
+/* @media (max-width: 768px) {
+      .card {
+        flex-direction: column; 
+        align-items: center; 
+        width: auto; 
+      }
+    
+      .card-image img {
+        width: 90%; 
+        margin-bottom: 20px; 
+      }
+    
+      .experience-content {
+        width: 90%; 
+        text-align: center; 
+      }
+    
+      .view-more {
+        align-self: flex-start; 
+        margin-top: 20px;
+      }
+    } */
