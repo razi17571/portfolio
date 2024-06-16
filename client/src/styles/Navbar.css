@@ -1,0 +1,79 @@
+body {
+  width: 100%;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Navbar full width fix */
+.navbar {
+  width: 100%; /* Ensure navbar takes full width */
+  display: flex;
+  justify-content: space-evenly;
+  height: 60px;
+  align-items: center;
+  background-color: #14131a !important;
+  padding: 0 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+nav ul {
+  color: #f2f2f2 !important;
+  padding-right: 100px;
+}
+
+.nav-links{
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+
+.navbrand {
+  flex: 1;
+  padding-left: 60px;
+  color: #e5e5e5; /* Adjust text color as needed */
+  /* Additional styling for navbrand if needed */
+}
+.nav-links-container {
+  margin: 0 auto; /* Center nav-links */
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  /* flex: 1; */
+}
+
+.nav-links li {
+  margin: 0 15px;
+  transition: all 0.3s ease;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white; /* Adjust text color as needed */
+  transition: all 0.3s ease;
+}
+
+.nav-links li a:hover {
+  border-bottom: 2px solid white; /* Line below text on hover */
+  /* font-size: 1.1em;  */
+
+}
+
+.social-icons {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: white; /* Adjust icon color as needed */
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Example hover color change */
+  transform: scale(1.2); /* Increase size */
+}
